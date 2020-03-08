@@ -1,9 +1,8 @@
 package chap01;
 
 import java.util.Scanner;
-// 1, 2, ..., n의 합을 구합니다.
 
-class SumWhile {
+class Q6 {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
@@ -21,5 +20,6 @@ class SumWhile {
 
         System.out.println("1부터 " + n + "까지의 합은 " + sum + "입니다.");
 
+        System.out.println("변수 i 최종값은 i+1인 " + i + "입니다.");     // i값이 n을 초과할 때 종료 되므로
     }
 }
